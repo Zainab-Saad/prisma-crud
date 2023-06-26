@@ -1,0 +1,30 @@
+{
+  "name": "prisma-demo",
+  "version": "1.0.0",
+  "description": "A simple crud api using Express.js, postgreSQL and prisma",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Zainab-Saad/prisma-demo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Zainab-Saad/prisma-demo/issues"
+  },
+  "homepage": "https://github.com/Zainab-Saad/prisma-demo#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  },
+  "dependencies": {
+    "@prisma/client": "^4.16.1",
+    "body-parser": "^1.20.2",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "prisma": "^4.16.1"
+  }
+}
